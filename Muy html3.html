@@ -1,0 +1,117 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta content="text/html; charset=euc-kr">
+<title>HTML5</title>
+<style type="text/css">
+	body {
+		text-align: center;
+		color: black;
+		width: 1000px;
+	}
+	div#wapper {
+		width: 100%;
+		text-align: left;
+		min-height: 300px;
+		margin: 0 auto;
+	}
+	header, footer, nav, aside, section {
+		border: 1px solid Gainsboro;
+		margin: 5px;
+		padding: 10px;
+	}
+	header {
+		height: 10px;
+		background-color: Gainsboro;
+		color: RoyalBlue;
+		text-align: center;
+	}
+	nav, section, aside {
+		float: left;
+		height: 500px;
+	}
+	nav {
+		background-color: Gainsboro;
+		width: 150px;
+	}
+	section {
+		background-color: White;
+		width: 785px;
+	}
+	aside {
+		background-color: White;
+		width: 100px;
+	}
+	footer {
+		height: 50px;
+		background-color: White;
+		color:DarkGray;
+		position: relatiev;
+		clear: both;
+		text-align: center;
+	}
+	article {
+		width: 95%;
+		margin: 15px;
+		background-color: Gainsboro;
+	}
+</style>
+
+</head>
+<body>
+	<div id="wapper">
+
+		<!--콘텐츠부분-->
+		<section>
+			<p>section</p>
+			<article>
+				<p>article</p>
+			</article>
+		</section>
+
+		<!--네비게이션-->
+		<nav>
+			<p>MUY</p>
+			<ul>
+				<form action='login_page.php'>
+          <input type='button' value='환자관리'/>
+        </form>
+
+        <br>
+				<form action='login_page.php'>
+          <input type='button' value='보철의뢰'/>
+        </form>
+        <br>
+	      <form action='login_page.php'>
+			  	<input type='button' value='재료관리'/>
+		  	</form>
+        <br>
+				<form action='login_page.php'>
+          <input type='button' value='의뢰관리'/>
+        </form>
+        <br>
+				<form action='login_page.php'>
+          <input type='button' value='재고관리'/>
+        </form>
+        <br>
+	      <form action='login_page.php'>
+			  	<input type='button' value='자료'/>
+		  	</form>
+				<br>
+				<form action='login_page.php'>
+          <input type='button' value='설정'/>
+        </form>
+        <br>
+			</ul>
+		</nav>
+
+		<!--사이드바
+		<aside>
+			<p>aside</p>
+		</aside>-->
+
+		<!--풋터-->
+		<footer>muy v1.0.0</footer>
+	</div>
+</body>
+</html>
